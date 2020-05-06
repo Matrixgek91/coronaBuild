@@ -783,7 +783,7 @@ class LoginService {
         this.http = http;
     }
     verify(login) {
-        return this.http.post('http://localhost:8080/login', login);
+        return this.http.post('/login', login);
     }
 }
 LoginService.ɵfac = function LoginService_Factory(t) { return new (t || LoginService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
@@ -1278,7 +1278,7 @@ class RegistrationService {
         this.http = http;
     }
     save(registration) {
-        return this.http.post('http://localhost:8080/registration', registration);
+        return this.http.post('/registration', registration);
     }
 }
 RegistrationService.ɵfac = function RegistrationService_Factory(t) { return new (t || RegistrationService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };

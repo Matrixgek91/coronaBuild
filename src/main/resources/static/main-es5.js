@@ -1523,7 +1523,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(LoginService, [{
         key: "verify",
         value: function verify(login) {
-          return this.http.post('http://localhost:8080/login', login);
+          return this.http.post('/login', login);
         }
       }]);
 
@@ -2600,7 +2600,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(RegistrationService, [{
         key: "save",
         value: function save(registration) {
-          return this.http.post('http://localhost:8080/registration', registration);
+          return this.http.post('/registration', registration);
         }
       }]);
 

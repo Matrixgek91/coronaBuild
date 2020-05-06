@@ -8,7 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://corona-yer-tdp-2020.herokuapp.com/")
 @RestController
 public class RegistrationController {
 
