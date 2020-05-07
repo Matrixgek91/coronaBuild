@@ -1,1 +1,1 @@
-web: java -jar target/corona-app-0.1.jar
+web: java -jar target/*.jar
