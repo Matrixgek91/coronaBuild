@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/corona-app-0.1.jar --p $PORT
+web: java -jar target/corona-app-0.1.jar
