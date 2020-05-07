@@ -7,10 +7,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 public class CoronaAppApplication extends SpringBootServletInitializer {
-//	@Override
-//	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-//		return application.sources(CoronaAppApplication.class);
-//	}
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(CoronaAppApplication.class);
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(CoronaAppApplication.class, args);
