@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 public interface RegistrationService extends CrudRepository<Registration, Integer> {
 
     Iterable<Registration> findByUsernameAndPassword(String username, String password);
+    Iterable<Registration> findByUsername(String username);
 
 
 

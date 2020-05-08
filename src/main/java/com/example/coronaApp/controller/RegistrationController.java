@@ -18,6 +18,8 @@ public class RegistrationController {
     public Registration create(@RequestBody Registration registration) throws Exception {
         if (registration.getUsername() == null || registration.getUsername().equals("") || registration.getUsername().length()<5 || registration.getUsername().length()>20)
             throw new Exception("Gebruikersnaam");
+        else if (registrationService.findByUsername(registration.getUsername()).iterator().hasNext())
+            throw new Exception("Gebruikersnaam al bezet, dus");
         else if (registration.getPassword() == null || registration.getPassword().equals("") || registration.getPassword().length()<5 || registration.getPassword().length()>20)
             throw new Exception("Wachtwoord");
         else if (registration.getFirstName() == null || registration.getFirstName().equals(""))
