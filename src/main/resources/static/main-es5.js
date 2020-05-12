@@ -2831,7 +2831,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/common/http */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
 
-    var baseUrl = 'http://localhost:8080/api/products';
+    var baseUrl = '/api/products';
 
     var ProductService = /*#__PURE__*/function () {
       function ProductService(http) {

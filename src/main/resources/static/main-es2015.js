@@ -1406,7 +1406,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const baseUrl = 'http://localhost:8080/api/products';
+const baseUrl = '/api/products';
 class ProductService {
     constructor(http) {
         this.http = http;
