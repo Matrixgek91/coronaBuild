@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.coronaApp.model.Product;
 import com.example.coronaApp.service.ProductService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://corona-app-yer-tdp-2020.herokuapp.com")
 @RestController
 @RequestMapping("/api")
 public class ProductController {
