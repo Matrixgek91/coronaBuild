@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/coronaApp-0.4.4.war
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/coronaApp-0.5.1.war
