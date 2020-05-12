@@ -11,9 +11,9 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>coronaApp</artifactId>
-	<version>0.4.3</version>
+	<version>0.4.4</version>
 	<name>coronaApp</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Corona Information app for YER Java TDP</description>
 
 	<properties>
 		<java.version>1.8</java.version>
