@@ -63,6 +63,17 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!--	Wiebe Web Wereld-->
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+		</dependency>
+
+		<!--	END WWW-->
+
+
 	</dependencies>
 
 	<build>
